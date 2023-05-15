@@ -263,6 +263,7 @@ function operate(){
     previousOperation = "";
     document.querySelector('#screen').textContent = screenValue;
     document.querySelector('#answer').textContent = screenValue;
+    // document.querySelectorAll('.button').classList.remove('.playing');
  }
 
 
