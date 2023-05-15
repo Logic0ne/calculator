@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-basis: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.surround {
+    display: flex;
+    /* flex-basis: 33vw; */
+    height: 100vh;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    border: 7px solid #59595C;
+    border-radius: 10px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    
+}
+
+
+
+
+#screen,#answer {
+    display: flex;
+    height: 10vh;
+    border-bottom: 5px solid #59595C;
+    font-size: 36px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.button:hover {
+    background-color: #59595C;
+    color: black;  
+}
+
+.button {
+    display: flex;
+    flex-basis: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    
+}
+.playing {
+    transform: scale(1.1);
+    background-color: #59595C;
+    color: black;
+}
+
+#button3-4 {
+    font-size: 36px;
+   
+    color: red;
+}
+
+#button0-3 {
+    color: yellow;
+    border-left: 5px solid #59595C;
+}
+#button0-4 {
+    color: green;
+}
+#button1-3 {
+    font-size: 36px;
+    
+    color: blue;
+    border-left: 5px solid #59595C;
+}
+#button1-4 {
+    font-size: 36px;
+    
+    color: blue;
+    
+}
+#button2-3 {
+    font-size: 36px;
+    
+    color: blue;
+    border-left: 5px solid #59595C;
+}
+#button2-4 {
+    font-size: 36px;
+    color: blue;
+}
+
+#button3-3 {
+    color: orange;
+    border-left: 5px solid #59595C;
+}
+
+#button3-2:hover {
+    background-color: black;
+}
