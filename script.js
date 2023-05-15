@@ -49,6 +49,9 @@ function click(e){
     //saves the value of what was clicked depending if from mouseclick or keyboard
     if(typeof e.key=='string'){//from keyboard
         var value = e.key;
+        if(value=='/'){
+            value='÷';
+        }
         //horrible hack to get window event listener connected to key
         for (let i=0;i<calculatorButtons.length;i++){
             for (let j=0;j<calculatorButtons[i].length;j++){
